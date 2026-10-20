@@ -31,8 +31,8 @@ DSH 的「插件 → 添加插件」对话框接受三种来源，任选其一�
 
 | 来源 | 填什么 | 说明 |
 | --- | --- | --- |
-| npm 包名 | `dsh-netease-music` | 最省事，依赖会自动安装 |
-| GitHub 仓库 | `https://github.com/jiannuoli-byte/-dsh` | 若安装后提示缺少本地服务，进目录跑一次 `npm run setup` |
+| npm 包名 | `dsh-netease-music` | 尚未发布到 npm；发布后依赖会自动安装 |
+| GitHub 仓库 | `https://github.com/jiannuoli-byte/dsh-netease-music` | **需要本机已安装 git**（pnpm 走 git 协议拉取）；装完若提示缺少本地服务，进目录跑一次 `npm run setup` |
 | 本地目录 | 插件目录的绝对路径 | 开发时用，改完刷新页面即可 |
 
 命令行等价物（让 agent 执行同一个工具）：

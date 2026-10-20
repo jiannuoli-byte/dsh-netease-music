@@ -6,11 +6,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiannuoli-byte/-dsh.git"
+    "url": "git+https://github.com/jiannuoli-byte/dsh-netease-music.git"
   },
-  "homepage": "https://github.com/jiannuoli-byte/-dsh#readme",
+  "homepage": "https://github.com/jiannuoli-byte/dsh-netease-music#readme",
   "bugs": {
-    "url": "https://github.com/jiannuoli-byte/-dsh/issues"
+    "url": "https://github.com/jiannuoli-byte/dsh-netease-music/issues"
   },
   "keywords": [
     "dsh",
