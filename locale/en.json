@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "NetEase Cloud Music",
+    "description": "Search, play, and follow lyrics inside DSH. Ships its own local NetEase API; scan a QR code once to reach the member catalog, or hand a song to the desktop client when no stream is available."
+  }
+}

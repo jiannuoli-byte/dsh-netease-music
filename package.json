@@ -1,0 +1,64 @@
+{
+  "name": "dsh-netease-music",
+  "version": "1.0.0",
+  "description": "NetEase Cloud Music for DeepSeek Harness: search, playlists, lyrics, loop modes and selectable quality, right inside the DSH Web UI.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiannuoli-byte/-dsh.git"
+  },
+  "homepage": "https://github.com/jiannuoli-byte/-dsh#readme",
+  "bugs": {
+    "url": "https://github.com/jiannuoli-byte/-dsh/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "netease",
+    "netease-cloud-music",
+    "music",
+    "player"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "check": "node --check index.js && node --check client.js && node --check session.js"
+  },
+  "dependencies": {
+    "NeteaseCloudMusicApi": "4.32.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "session.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "scripts/setup.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}

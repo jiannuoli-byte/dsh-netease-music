@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33706603/README.md)
 # NetEase Cloud Music for DSH
 
 在 [DeepSeek Harness](https://deepseek.com) 的 Web UI 里听网易云音乐：搜索、歌单、歌词、循环模式、多档音质，
@@ -33,7 +32,7 @@ DSH 的「插件 → 添加插件」对话框接受三种来源，任选其一�
 | 来源 | 填什么 | 说明 |
 | --- | --- | --- |
 | npm 包名 | `dsh-netease-music` | 最省事，依赖会自动安装 |
-| GitHub 仓库 | `https://github.com/<you>/dsh-netease-music` | 若安装后提示缺少本地服务，进目录跑一次 `npm run setup` |
+| GitHub 仓库 | `https://github.com/jiannuoli-byte/-dsh` | 若安装后提示缺少本地服务，进目录跑一次 `npm run setup` |
 | 本地目录 | 插件目录的绝对路径 | 开发时用，改完刷新页面即可 |
 
 命令行等价物（让 agent 执行同一个工具）：
